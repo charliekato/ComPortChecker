@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComPortCheck", "ComPortCheck.csproj", "{19E32224-C000-44EF-8B81-94CAC5182691}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComPortChecker", "ComPortChecker.csproj", "{19E32224-C000-44EF-8B81-94CAC5182691}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{31515D82-8ECE-4854-A577-1C1983FFBCEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{19E32224-C000-44EF-8B81-94CAC5182691}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19E32224-C000-44EF-8B81-94CAC5182691}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19E32224-C000-44EF-8B81-94CAC5182691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31515D82-8ECE-4854-A577-1C1983FFBCEE}.Debug|Any CPU.ActiveCfg = Debug
+		{31515D82-8ECE-4854-A577-1C1983FFBCEE}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

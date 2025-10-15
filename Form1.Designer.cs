@@ -29,35 +29,51 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            button1 = new Button();
+            buttonQuit = new Button();
+            buttonReRun = new Button();
             SuspendLayout();
             // 
             // label1
             // 
             label1.Font = new Font("Yu Gothic UI", 12F, FontStyle.Bold);
-            label1.Location = new Point(168, 109);
+            label1.Location = new Point(103, 68);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(413, 268);
+            label1.Size = new Size(254, 168);
             label1.TabIndex = 0;
             label1.Text = "label1  ";
             // 
-            // button1
+            // buttonQuit
             // 
-            button1.Location = new Point(319, 19);
-            button1.Name = "button1";
-            button1.Size = new Size(124, 61);
-            button1.TabIndex = 1;
-            button1.Text = "OK";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            buttonQuit.Location = new Point(320, 11);
+            buttonQuit.Margin = new Padding(2);
+            buttonQuit.Name = "buttonQuit";
+            buttonQuit.Size = new Size(76, 38);
+            buttonQuit.TabIndex = 1;
+            buttonQuit.Text = "終了";
+            buttonQuit.UseVisualStyleBackColor = true;
+            buttonQuit.Click += button1_Click;
+            // 
+            // buttonReRun
+            // 
+            buttonReRun.Location = new Point(77, 11);
+            buttonReRun.Margin = new Padding(2);
+            buttonReRun.Name = "buttonReRun";
+            buttonReRun.Size = new Size(76, 38);
+            buttonReRun.TabIndex = 2;
+            buttonReRun.Text = "ReRun";
+            buttonReRun.UseVisualStyleBackColor = true;
+            buttonReRun.Click += buttonReRun_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(770, 433);
-            Controls.Add(button1);
+            ClientSize = new Size(474, 271);
+            Controls.Add(buttonReRun);
+            Controls.Add(buttonQuit);
             Controls.Add(label1);
+            Margin = new Padding(2);
             Name = "Form1";
             Text = "COM  Checker　 (一社) 大津市水泳協会";
             ResumeLayout(false);
@@ -66,6 +82,7 @@
         #endregion
 
         private Label label1;
-        private Button button1;
+        private Button buttonQuit;
+        private Button buttonReRun;
     }
 }

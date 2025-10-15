@@ -28,5 +28,12 @@ namespace ComPortCheck
         {
             this.Close();
         }
+
+        private void buttonReRun_Click(object sender, EventArgs e)
+        {
+            label1.Text = "";
+            GetPortName();
+
+        }
     }
 }
